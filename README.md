@@ -37,3 +37,5 @@ For production, set `DATABASE_URL`, `AUTH_SECRET`, `ADMIN_PASSWORD`, and `TEACHE
 
 ### Important web-platform difference
 The desktop Python version uses OpenCV Haar Cascade + LBPH. A normal browser cannot execute that desktop OpenCV/LBPH pipeline directly, so the web build uses browser-compatible face descriptors while keeping the same registration/recognition attendance workflow.
+
+Vercel deployment update
