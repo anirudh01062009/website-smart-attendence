@@ -1,4 +1,4 @@
-const API='/api';
+const API='/api/index.js';
 const GRACE=5, FINAL_WINDOW=5, MATCH_THRESHOLD=0.52;
 const DEFAULT_TIMETABLE=[['1','Data Structures','09:00','10:00'],['2','Operating Systems','10:00','11:00'],['3','DBMS','11:15','12:15'],['4','Computer Networks','12:15','13:15'],['5','Python','14:00','15:00'],['6','AI & ML','15:00','16:00'],['7','Web Technology','16:00','17:00'],['8','Project','17:00','18:00']];
 const AUTO_HOLIDAYS={'2026-01-26':'Republic Day','2026-03-04':'Holi','2026-03-21':'Id-ul-Fitr','2026-03-26':'Ram Navami','2026-03-31':'Mahavir Jayanti','2026-04-03':'Good Friday','2026-05-01':'Buddha Purnima','2026-05-27':'Id-ul-Zuha (Bakrid)','2026-06-26':'Muharram','2026-08-15':'Independence Day','2026-08-26':'Milad-un-Nabi / Id-e-Milad','2026-09-04':'Janmashtami','2026-10-02':'Mahatma Gandhi Jayanti','2026-10-20':'Dussehra (Vijay Dashami)','2026-11-08':'Diwali (Deepavali)','2026-11-24':"Guru Nanak's Birthday",'2026-12-25':'Christmas Day'};
